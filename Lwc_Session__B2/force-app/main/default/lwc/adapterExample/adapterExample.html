@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="User Detail using getRecord Adapter">
+    <p>{UserId}</p>
+    <template if:true={userInfo}>
+        
+    <p>{userInfo.Email.value}</p>
+    <p>{userInfo.Name.value}</p>
+    
+    </template>
+    </lightning-card>
+    
+</template>
