@@ -15,7 +15,7 @@ var ab = 'scope';
 console.log(ab);
 console.log(window.ab);
 
-
+     
 
 //let
 //cant be reclared, can be updated
