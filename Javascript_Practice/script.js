@@ -19,7 +19,7 @@ console.log(window.ab);
 
 //let
 //cant be reclared, can be updated
- 
+  
 let c = 'Hello World';
 c = 'init';
 console.log(c);
