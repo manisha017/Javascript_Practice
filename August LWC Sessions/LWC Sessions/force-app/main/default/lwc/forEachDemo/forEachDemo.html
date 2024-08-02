@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="for each">
+        <ul>
+        <template for:each={contacts} for:item="c">
+            <li key={c.name}>
+                {c.name}
+                {c.age}
+                {c.salary}
+            </li>
+        </template>
+        </ul>
+    </lightning-card>
+    
+</template>
