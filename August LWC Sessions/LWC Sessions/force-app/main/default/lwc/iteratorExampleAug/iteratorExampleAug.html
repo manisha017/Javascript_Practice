@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="HelloForEach">
+        <template iterator:it={contacts}>
+            <li key={it.value.name}>
+                <div>
+                    {it.value.age},{it.value.salary}
+                </div>
+                <div if:true={it.first} class="list-first">
+                    {it.value.age},{it.value.salary}
+                </div>
+                <div if:true={it.last} class="list-last">
+                    {it.value.age},{it.value.salary}
+                </div>
+            </li>
+        </template>
+    </lightning-card>
+    
+</template>
